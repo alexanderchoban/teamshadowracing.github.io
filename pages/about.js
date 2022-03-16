@@ -13,7 +13,10 @@ export default function About() {
     <>
       <Head>
         <title>Team Shadow Racing - About</title>
-        <meta name="Description" content="Team Shadow is an online and real life automotive organization. Visit our website more about Team Shadow vision, history, and future."></meta>
+        <meta
+          name="Description"
+          content="Team Shadow is an online and real life automotive organization. Visit our website more about Team Shadow vision, history, and future."
+        ></meta>
       </Head>
       <Nav />
       <div className="bg-pink-600 text-white mb-6">
@@ -70,15 +73,11 @@ src="https://www.youtube.com/embed/r6RRq0vY7Zc?rel=0?version=3&autoplay=1&contro
           culture at home. And Team Shadow wants to bring that culture to you!
           Visit the{" "}
           <Link href="https://www.youtube.com/channel/UCaje4yLTTxVJT4bf7PXDk6g">
-            <span className="underline text-blue-500 cursor-pointer">
-              YouTube
-            </span>
+            <a className="textLink">YouTube</a>
           </Link>{" "}
           channel to see videos of our pilots and check out our{" "}
           <Link href="/gallery">
-            <span className="underline text-blue-500 cursor-pointer">
-              Gallery
-            </span>
+            <a className="textLink">Gallery</a>
           </Link>{" "}
           to see our virtual and real world vehicles.
         </p>
