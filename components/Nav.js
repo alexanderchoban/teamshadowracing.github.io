@@ -110,7 +110,7 @@ const Nav = () => {
         <div className="p-4">
           <TeamShadowLogo />
         </div>
-        <ul className="px-4">
+        <ul className="px-4 text-3xl space-y-2">
           <NavLinks onClick={toggleOpen} />
         </ul>
       </aside>
