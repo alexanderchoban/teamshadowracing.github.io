@@ -32,7 +32,7 @@ export default function About() {
           </div>
         </div>
       </div>
-      <div className="w-full container mx-auto py-3">
+      <div className="w-full container mx-auto py-3 px-2">
         <h3>
           <TeamShadowLogo racing />
         </h3>
@@ -46,7 +46,7 @@ export default function About() {
           their skills in automotive competitions.
         </p>
       </div>
-      <div className="w-full container mx-auto py-3">
+      <div className="w-full container mx-auto py-3 px-2">
         <h3 className="team-shadow-header">Fabrication</h3>
         <p>
           Team Shadow Fabrication is all about{" "}
@@ -58,7 +58,10 @@ export default function About() {
           performance. Our ultimate goal: be best.
         </p>
       </div>
-      <div className="w-full container mx-auto py-3">
+      <iframe className="mx-auto" width="390" height="220"
+src="https://www.youtube.com/embed/r6RRq0vY7Zc?rel=0?version=3&autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=r6RRq0vY7Zc">
+</iframe>
+      <div className="w-full container mx-auto py-3 px-2">
         <h3 className="team-shadow-header">Media</h3>
         <p>
           Team Shadow Meida is all about{" "}
