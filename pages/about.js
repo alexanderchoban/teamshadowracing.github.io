@@ -23,8 +23,8 @@ export default function About() {
         <div className="pt-24">
           <div className="container px-3 mx-auto">
             <div className="flex flex-col w-full justify-center text-center items-start text-center md:text-left">
-              <h2 className="my-4 text-xl md:text-5xl font-bold leading-tight text-center mx-auto uppercase">
-                About
+              <h2 className="team-shadow-header my-4 text-xl md:text-5xl leading-tight text-center mx-auto uppercase">
+                About the Team
               </h2>
               <p className="leading-normal md:text-2xl mb-8 text-center mx-auto">
                 Team Shadow is an online and real life automotive organization.
@@ -42,10 +42,10 @@ export default function About() {
         <p>
           Team Shadow Racing is all about{" "}
           <strong className="text-pink-600 uppercase">speed</strong>. The team's
-          primary simulator for training is Assetto Corsa. It used to train for
+          primary simulator for training is Assetto Corsa. AC is used to train for
           track racing and practicing touge runs. But speed is not about siting
           in the simulator, real speed is found on the track and auto cross
-          course. After homing skills, official Team Shadow drivers demonstrate
+          courses. After homing skills, official Team Shadow drivers demonstrate
           their skills in automotive competitions.
         </p>
       </div>
@@ -84,7 +84,7 @@ src="https://www.youtube.com/embed/r6RRq0vY7Zc?rel=0?version=3&autoplay=1&contro
       </div>
       <div className="bg-gray-800 mt-6">
         <div className="container mx-auto px-6 text-center py-20">
-          <h2 className="mb-6 text-4xl font-bold text-center text-white">
+          <h2 className="team-shadow-header mb-6 text-4xl text-center text-white">
             Want to see us in action?
           </h2>
           <Link href="https://www.youtube.com/channel/UCaje4yLTTxVJT4bf7PXDk6g">

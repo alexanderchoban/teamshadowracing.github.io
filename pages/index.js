@@ -27,7 +27,7 @@ export default function Home({ media }) {
         <div className="pt-14 sm:pt-36 md:pt-48 lg:pt-60 xl:pt-72 text-white">
           <div className="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
             <div className="flex flex-col w-full justify-center text-center items-start text-center md:text-left">
-              <h1 className="my-4 text-xl md:text-5xl font-bold leading-tight text-center mx-auto uppercase">
+              <h1 className="team-shadow-header my-4 text-xl md:text-5xl leading-tight text-center mx-auto uppercase">
                 <span className="bg-blue-800 px-1">AUTOMOTIVE FUN</span>
               </h1>
               <p className="leading-normal md:text-2xl mb-8 text-center mx-auto">
@@ -43,7 +43,7 @@ export default function Home({ media }) {
       </div>
       <div className="bg-blue-500">
         <div className="container mx-auto px-6 text-center py-20">
-          <h2 className="mb-6 text-4xl font-bold text-center text-white">
+          <h2 className="team-shadow-header mb-6 text-4xl text-center text-white">
             We like to go fast!
           </h2>
           <h3 className="my-4 text-2xl text-white">
@@ -87,7 +87,7 @@ export default function Home({ media }) {
       </div>
       <div className="bg-gray-800">
         <div className="container mx-auto px-6 text-center py-20">
-          <h2 className="mb-6 text-4xl font-bold text-center text-white">
+          <h2 className="team-shadow-header mb-6 text-4xl text-center text-white">
             Want to see more?
           </h2>
           <Link href="/gallery">

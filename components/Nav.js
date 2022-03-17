@@ -44,7 +44,7 @@ const Nav = () => {
   };
 
   return (
-    <nav id="header" className="fixed w-full z-30 top-0  bg-white shadow-lg">
+    <nav id="header" className="fixed w-full z-30 top-0 bg-white shadow-lg carbon">
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2 px-2">
         <div className="block lg:hidden">
           <button
@@ -64,14 +64,14 @@ const Nav = () => {
         </div>
         <Link href="/">
           <h1 className="cursor-pointer">
-            <TeamShadowLogo />
+            <TeamShadowLogo white />
           </h1>
         </Link>
         <div
-          className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20"
+          className="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-white p-4 lg:p-0 z-20"
           id="nav-content"
         >
-          <ul className="list-reset lg:flex justify-end flex-1 items-center">
+          <ul className="text-xl space-x-6 list-reset lg:flex justify-end flex-1 items-center">
             <NavLinks />
           </ul>
         </div>

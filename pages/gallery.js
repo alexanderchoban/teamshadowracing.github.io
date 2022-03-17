@@ -131,6 +131,7 @@ const Gallery = ({ galleries }) => {
 
 export async function getStaticProps() {
   const galleries = [
+    await getImgurAlbum("v0XUvcN"),
     await getImgurAlbum("Y5Qa7dG"),
     await getImgurAlbum("QtESV61"),
   ];
