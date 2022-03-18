@@ -50,7 +50,7 @@ export default function About() {
         </p>
       </div>
       <div className="w-full container mx-auto py-3 px-2">
-        <h3 className="team-shadow-header">Fabrication</h3>
+        <h3 className="team-shadow-header text-4xl">Fabrication</h3>
         <p>
           Team Shadow Fabrication is all about{" "}
           <strong className="text-pink-600 uppercase">creativity</strong>. Using
@@ -65,7 +65,7 @@ export default function About() {
 src="https://www.youtube.com/embed/r6RRq0vY7Zc?rel=0?version=3&autoplay=1&controls=0&showinfo=0&loop=1&mute=1&playlist=r6RRq0vY7Zc">
 </iframe>
       <div className="w-full container mx-auto py-3 px-2">
-        <h3 className="team-shadow-header">Media</h3>
+        <h3 className="team-shadow-header text-4xl">Media</h3>
         <p>
           Team Shadow Meida is all about{" "}
           <strong className="text-pink-600 uppercase">entertainment</strong>.
