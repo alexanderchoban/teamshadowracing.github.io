@@ -134,6 +134,7 @@ export async function getStaticProps() {
     await getImgurAlbum("v0XUvcN"),
     await getImgurAlbum("Y5Qa7dG"),
     await getImgurAlbum("QtESV61"),
+    await getImgurAlbum("NKTCg6H"),
   ];
 
   return {
